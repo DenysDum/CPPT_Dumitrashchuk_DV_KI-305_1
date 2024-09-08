@@ -46,6 +46,7 @@ public class MonitorApp {
 
         // Закриття ресурсу для логування
         monitor1.dispose();
+        monitor2.dispose();
         System.out.println("Логування закінчено, ресурси звільнено.");
         
 	}
